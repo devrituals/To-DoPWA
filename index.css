@@ -125,8 +125,9 @@
     opacity: 0.6;
 }
 .task .actions .edit {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
     background-clip: text;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
