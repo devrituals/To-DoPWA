@@ -13,6 +13,9 @@ form.onsubmit = async (event) => {
     await db.todos.add({ todo });
     await getTodos();
     form.reset();
+
+    
+
 };
 
 //display todo
@@ -33,7 +36,7 @@ const getTodos = async () => {
         `
     )
 
-   .join("");
+   .join(" ");
 };
 window.onload = getTodos;
 
